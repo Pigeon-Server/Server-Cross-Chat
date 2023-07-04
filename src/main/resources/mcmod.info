@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cross_chat",
+  "name": "Cross Server Chat",
+  "description": "Cross Server Chat",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Half_nothing"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
