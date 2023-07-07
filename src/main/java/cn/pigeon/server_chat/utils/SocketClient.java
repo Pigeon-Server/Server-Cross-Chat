@@ -6,6 +6,7 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraftforge.fml.server.FMLServerHandler;
+import org.apache.logging.log4j.Logger;
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.drafts.Draft;
 import org.java_websocket.handshake.ServerHandshake;
@@ -14,7 +15,7 @@ import java.net.URI;
 import java.util.Map;
 
 public class SocketClient extends WebSocketClient {
-
+    private static final Logger logger = CrossServerChat.logger;
     private static final Gson gson = CrossServerChat.gson;
 
     public SocketClient(URI serverUri) {
@@ -57,7 +58,7 @@ public class SocketClient extends WebSocketClient {
 
     @Override
     public void onClose(int code, String reason, boolean remote) {
-
+        logger.debug("["+code+"]连接已关闭");
     }
 
     @Override

@@ -13,19 +13,19 @@ public class RootCommand extends CommandTreeBase {
 
     @Override
     public String getName() {
-        // ÉèÖÃÃüÁîµÄÃû³Æ
+        // è®¾ç½®å‘½ä»¤çš„åç§°
         return "crosschat";
     }
 
     @Override
     public String getUsage(ICommandSender sender) {
-        // ÉèÖÃÃüÁîµÄÊ¹ÓÃ·½·¨
+        // è®¾ç½®å‘½ä»¤çš„ä½¿ç”¨æ–¹æ³•
         return "/crosschat";
     }
 
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) {
-        // ÃüÁîµÄ¾ßÌåÂß¼­
+        // å‘½ä»¤çš„å…·ä½“é€»è¾‘
         sender.sendMessage(new TextComponentString("This is my custom command!"));
     }
 
