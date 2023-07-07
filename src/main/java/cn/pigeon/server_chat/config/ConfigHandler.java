@@ -20,9 +20,9 @@ public class ConfigHandler extends Configuration {
     }
 
     public void loadConfig() {
-        host = getString("WebsocketServerAddress", "Websocket", "ws://127.0.0.1:3000/server-message", "Websocket·şÎñÆ÷µØÖ·");
-        message = getString("SendMessageFormat", "Message", "[{username}]({server}) : {message}", "½ÓÊÜÏûÏ¢Êä³ö¸ñÊ½");
-        name = getString("ServerName", "Message", "Server", "ÏûÏ¢·¢ËÍµÄ·şÎñÆ÷Ãû³Æ");
+        host = getString("WebsocketServerAddress", "Websocket", "ws://127.0.0.1:3000/server-message", "WebsocketæœåŠ¡å™¨åœ°å€");
+        message = getString("SendMessageFormat", "Message", "[{username}]({server}) : {message}", "æ¥å—æ¶ˆæ¯è¾“å‡ºæ ¼å¼");
+        name = getString("ServerName", "Message", "Server", "æ¶ˆæ¯å‘é€çš„æœåŠ¡å™¨åç§°");
         this.saveConfig();
     }
 

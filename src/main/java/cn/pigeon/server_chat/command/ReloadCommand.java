@@ -33,7 +33,7 @@ public class ReloadCommand implements ICommand {
     @Override
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         try {
-            sender.sendMessage(new TextComponentString("ÕıÔÚÖØÔØÅäÖÃÎÄ¼ş"));
+            sender.sendMessage(new TextComponentString("æ­£åœ¨é‡è½½é…ç½®æ–‡ä»¶"));
             CrossServerChat.socketClient.close(1000);
             CrossServerChat.configuration.loadConfig();
             try {
@@ -43,14 +43,14 @@ public class ReloadCommand implements ICommand {
                 CrossServerChat.logger.error(e.getMessage());
             } catch (InterruptedException e) {
                 CrossServerChat.logger.error(e.getMessage());
-                sender.sendMessage(new TextComponentString("WS·şÎñÆ÷Á¬½ÓÊ§°Ü"));
+                sender.sendMessage(new TextComponentString("WSæœåŠ¡å™¨è¿æ¥å¤±è´¥"));
             }
         } catch (Exception e){
             CrossServerChat.logger.error(e.getMessage());
-            sender.sendMessage(new TextComponentString("ÅäÖÃÎÄ¼ş¼ÓÔØÊ§°Ü"));
+            sender.sendMessage(new TextComponentString("é…ç½®æ–‡ä»¶åŠ è½½å¤±è´¥"));
             return;
         }
-        sender.sendMessage(new TextComponentString("ÅäÖÃÎÄ¼şÖØÔØ³É¹¦"));
+        sender.sendMessage(new TextComponentString("é…ç½®æ–‡ä»¶é‡è½½æˆåŠŸ"));
     }
 
     @Override
