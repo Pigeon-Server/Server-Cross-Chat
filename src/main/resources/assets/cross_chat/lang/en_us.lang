@@ -1,0 +1,24 @@
+error.args=Incorrect number of arguments
+
+error.set.host.head=The Websocket server address must begin with ws://
+error.set.host.wss=wss is not supported yet
+error.set.host.illegal=The Websocket server address is illegal
+
+command.set.host.success=Set the Websocket server address to: %s
+command.set.name.success=Set the server name to: %s
+command.set.output.success=Set the format of the received message to: %s
+command.set.output.login.success=Set the format of the login message to: %s
+command.set.output.logout.success=Set the format of the logout message to: %s
+
+websocket.connect=Try to connect websocket server : %s
+websocket.connect.success=Success connect to websocket server.
+websocket.connect.fail=Can't connect to websocket server.
+websocket.close=Exit from websocket server, code: %d
+websocket.create.success=Success create websocket client, host is %s
+websocket.create.fail=Can't create websocket client.Mod will be closed.
+websocket.reconnect.success=Success reconnect to websocket server : %s
+websocket.ping.fail=Fail to send ping packet to websocket server, try to reconnect
+
+config.reload=Reloading Configuration Files...
+config.reload.fail=Reloading Failure.
+config.reload.success=The configuration file was reloaded successfully.

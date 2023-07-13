@@ -1,0 +1,24 @@
+error.args=参数错误
+
+error.set.host.head=Websocket服务器地址必须以ws://开头
+error.set.host.wss=暂时不支持wss
+error.set.host.illegal=Websocket服务器地址非法
+
+command.set.host.success=将Websocket服务器地址设置为: %s
+command.set.name.success=将服务器名称设置为: %s
+command.set.output.success=将接收消息格式设置为: %s
+command.set.output.login.success=将接收玩家上线消息格式设置为: %s
+command.set.output.logout.success=将接收玩家下线消息格式设置为: %s
+
+websocket.connect=尝试连接到Websocket服务器 : %s
+websocket.connect.success=成功连接到Websocket服务器
+websocket.connect.fail=无法连接到Websocket服务器
+websocket.close=从Websocket服务器断开连接, 退出码: %d
+websocket.create.success=成功创建Websocket客户端, 链接地址: %s
+websocket.create.fail=无法创建Websocket客户端, 跨服聊天已关闭
+websocket.reconnect.success=成功重连到Websocket服务器 : %s
+websocket.ping.fail=心跳验证失败, 正在尝试重连
+
+config.reload=正在重载配置文件...
+config.reload.fail=重载配置文件失败
+config.reload.success=重载配置文件成功
