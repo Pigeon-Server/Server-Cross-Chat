@@ -1,11 +1,10 @@
 package cn.pigeon.cross_chat.websocket;
 
 import cn.pigeon.cross_chat.CrossServerChat;
-import cn.pigeon.cross_chat.handler.ServerEventHandler;
 import cn.pigeon.cross_chat.Static.DataType;
+import cn.pigeon.cross_chat.handler.ServerEventHandler;
 import cn.pigeon.cross_chat.utils.Datapack;
 import com.google.gson.Gson;
-import net.minecraft.client.resources.I18n;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;

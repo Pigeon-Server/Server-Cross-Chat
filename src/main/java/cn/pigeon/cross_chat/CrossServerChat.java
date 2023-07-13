@@ -5,7 +5,6 @@ import cn.pigeon.cross_chat.config.ConfigHandler;
 import cn.pigeon.cross_chat.websocket.SocketClient;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import net.minecraft.client.resources.I18n;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
